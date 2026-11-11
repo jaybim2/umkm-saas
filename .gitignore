@@ -1,0 +1,41 @@
+# Secret — JANGAN PERNAH di-commit
+.env
+.env.local
+.env.backup
+.env.production
+
+# Laravel / PHP
+*.log
+/vendor
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+storage/logs/*.log
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+
+# Python / Django (dari starter)
+__pycache__/
+*.pyc
+.venv/
+venv/
+db.sqlite3
+
+# Editor / IDE / OS
+.DS_Store
+Thumbs.db
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.vscode
+/.zed
+/auth.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
