@@ -1,5 +1,5 @@
 # Ubah ke 8.2 sesuai pesan commit kamu sebelumnya agar aman dengan composer.json
-FROM php:8.2-apache
+FROM php:8.4-apache
 
 # Ekstensi yang dibutuhkan Laravel + Postgres
 RUN apt-get update && apt-get install -y \
